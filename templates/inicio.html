@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <!---Este es el título (la parte de arriba del navegador)-->
+        <title>Mi primera página web</title>
+        <link rel="stylesheet" href="{{ url_for ('static', filename='style.css') }}">
+    </head>
+    <body>
+        <!---Este es el cuerpo-->
+        <a href="{{ url_for ('inicio') }}"> Inicio<a>
+        <a href="{{ url_for ('contacto') }}"> Contacto<a>
+        <H1>Hola Mundo</H1> <!--h1 es el título del cuerpo-->
+    
+        <h2>Mi nombre es Coke</h2> <!---El segundo título es un poco más chico que el primero-->
+        <h3>
+       <dd> Estoy en Penguin porque me eligieron. Gracias. Y porque quiero aprender programación nuevas formas de jerarquizar el pensamiento.Ahora voy a seguir escribiendo para probar como editar el texto.</dd>
+            <p>
+        <dd>Probando más texto. “¿Qué es la vida? <b>Un frenesí</b>. ¿Qué es la vida? <b>Una ilusión</b>, una sombra, una ficción; y el mayor bien es pequeño; que toda la vida es sueño, y los sueños, sueños son.” Calderón de la Barca.
+        </h3>
+         
+        <p>Texto de prueba</p>  <!---El texto sale sin edición-->
+        <h3>Aca abajo insertamos una foto de un beagle con lentes: </h3>
+        <img src="static/Beagle con lentes de sol.jpeg" alt="Perrito con lentes" width="400" height="250">
+        <h3>Aca abajo insertamos un gif o un meme: </h3>
+        <img src="static/gif monito.gif" alt="Gif de KOMO LO ZUPO" width="320" height="218">
+        
+
+    <body>
+        
+        
+</html>
